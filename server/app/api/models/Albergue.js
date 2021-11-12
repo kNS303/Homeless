@@ -6,7 +6,7 @@ const albergueSchema = new mongoose.Schema(
     address: { type: String, required: true },
     phone: { type: String, required: true },
     opening: { type: String, required: true },
-    services: { type: String, required: true },
+    services: { type: String, required: false },
   },
   {
     timestamps: true,
